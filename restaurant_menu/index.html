@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Menu</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://js.stripe.com/v3/"></script>
+</head>
+<body>
+    <div id="restaurant-menu">
+        <h1>Our Menu</h1>
+        <div class="menu-category">
+            <h2>Appetizers</h2>
+            <div class="menu-item">
+                <img src="images/appetizer1.jpg" alt="Appetizer 1">
+                <div class="menu-item-details">
+                    <h3>Appetizer 1</h3>
+                    <p>Description of Appetizer 1.</p>
+                    <span class="price">0.00</span>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+            <!-- More menu items here -->
+        </div>
+    </div>
+
+    <div id="cart">
+        <h2>Your Cart</h2>
+        <div id="cart-items"></div>
+        <div id="cart-total">Total: $<span id="total-amount">0.00</span></div>
+        <button id="checkout-button">Checkout</button>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
