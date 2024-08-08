@@ -2,5 +2,24 @@
   "dependencies": {
     "express": "^4.19.2",
     "stripe": "^16.6.0"
-  }
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "onlinemenu",
+  "description": "## Overview The **Restaurant Menu** project is a part of the Aenzbi suite, designed to offer a digital menu for restaurants. Customers can view the menu, place orders, and make payments online through an integrated payment gateway.",
+  "version": "1.0.0",
+  "main": "server.js",
+  "devDependencies": {},
+  "keywords": [],
+  "author": "Ally Elvis Nzeyimana",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/allyelvis/onlinmenu.git"
+  },
+  "bugs": {
+    "url": "https://github.com/allyelvis/onlinmenu/issues"
+  },
+  "homepage": "https://github.com/allyelvis/onlinmenu#readme"
 }

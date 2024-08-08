@@ -1,3 +1,5 @@
+[Readme reference] This project, Restaurant Menu, is part of the Aenzbi suite. For more details, refer to the README.md file.
+
 /*
  * aenzbi - Business Management Software
  * 
