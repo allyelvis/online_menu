@@ -1,3 +1,11 @@
+/*
+ * aenzbi - Business Management Software
+ * 
+ * Copyright (c) 2024 Ally Elvis Nzeyimana
+ * 
+ * This software is licensed under the MIT License. See the LICENSE file for details.
+ */
+
 document.addEventListener('DOMContentLoaded', () => {
     const cartItems = [];
     const cartContainer = document.getElementById('cart-items');
