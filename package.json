@@ -1,7 +1,22 @@
 {
   "dependencies": {
+    "@babel/traverse": "^7.25.3",
+    "@changesets/cli": "^2.27.7",
+    "@gql.tada/cli-utils": "^1.6.0",
+    "@koa/router": "^12.0.1",
+    "babel-plugin-jest-hoist": "^29.6.3",
+    "babel-preset-jest": "^29.6.3",
+    "consolidate": "^1.0.4",
+    "eventemitter3": "^5.0.1",
     "express": "^4.19.2",
-    "stripe": "^16.6.0"
+    "knip": "^5.27.2",
+    "koa-router": "^12.0.1",
+    "main": "^1000.0.1",
+    "npm-run-all2": "^6.2.2",
+    "require-main-filename": "^2.0.0",
+    "rollup-plugin-esbuild": "^6.1.1",
+    "stripe": "^16.6.0",
+    "vue-demi": "^0.14.10"
   },
   "scripts": {
     "start": "node server.js"
@@ -10,7 +25,6 @@
   "description": "## Overview The **Restaurant Menu** project is a part of the Aenzbi suite, designed to offer a digital menu for restaurants. Customers can view the menu, place orders, and make payments online through an integrated payment gateway.",
   "version": "1.0.0",
   "main": "server.js",
-  "devDependencies": {},
   "keywords": [],
   "author": "Ally Elvis Nzeyimana",
   "license": "MIT",

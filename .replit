@@ -1,6 +1,6 @@
 run = "cowsay Configure me!"
 entrypoint = "README.md"
-modules = ["nodejs-20"]
+modules = ["nodejs-18"]
 
 [nix]
 channel = "stable-24_05"
